@@ -1,0 +1,107 @@
+PPT Note
+
+Slide 1: Judul
+Judul Skripsi:
+"PERANCANGAN MESIN EKSTRUDER BOTOL PLASTIK MENJADI FILAMEN PRINTER 3 DIMENSI DENGAN SISTEM KONTROL ARDUINO"
+
+Nama: Kevin Mubarak
+
+NIM: 2022310003
+
+Program Studi: Teknik Informatika
+
+Pembimbing: (Disesuaikan)
+
+
+
+Slide 2: Latar Belakang Masalah (2 menit)
+Masalah Utama:
+
+Limbah botol PET sulit terurai (butuh ratusan tahun) → ancaman lingkungan (21,14% sampah plastik di Lampung, 2021) [Harahap et al., 2025].
+Ketergantungan filamen 3D komersial (PLA/ABS) mahal dan sulit diakses di daerah.
+Kualitas filamen daur ulang tidak konsisten (under-extrusion, variasi diameter ±0.2 mm) [Wirantara et al., 2025].
+
+
+Data Terkini:
+
+Hanya 23% siswa SMA paham pemanfaatan limbah PET [Anshori & Sobriati, 2024].
+Konsumsi botol PET Indonesia meningkat, tetapi daur ulang terbatas.
+
+
+Urgensi Penelitian:
+Mengembangkan mesin ekstrusi berbasis Arduino untuk:
+Solusi daur ulang berkelanjutan limbah PET.
+Penyediaan filamen 3D printer murah dan lokal.
+
+
+
+Slide 3: Rumusan Masalah, Tujuan & Manfaat (1,5 menit)
+
+Rumusan Masalah:
+
+Bagaimana karakteristik limbah PET Babelan sebagai bahan baku filamen?
+Bagaimana pengaruh suhu (160–265°C) dan kecepatan tarik (20–40 rpm) terhadap kualitas filamen?
+Apa potensi implementasi mesin untuk kurangi limbah dan ketergantungan filamen komersial?
+
+
+Tujuan:
+
+Rancang mesin daur ulang PET → filamen 3D berbasis Arduino.
+Optimasi parameter ekstrusi (suhu dan kecepatan tarik).
+Evaluasi efektivitas kurangi limbah PET di Babelan, Bekasi.
+
+Manfaat:
+
+Akademis: Kontribusi teknologi daur ulang berbasis IoT.
+Praktis: Solusi limbah PET & filamen 3D terjangkau untuk UMKM/lokal.
+
+
+
+Slide 4: Tinjauan Pustaka (2,5 menit)
+Teori/Konsep Pendukung:
+Arduino: Mikrokontroler open-source untuk kontrol presisi suhu dan kecepatan [Elektro, 2021].
+
+
+Filamen PET:
+
+Sifat termoplastik (meleleh pada 225°C) [Wirantara et al., 2025].
+Kekuatan tarik ≈ PLA (6.11 MPa) [Harahap et al., 2025].
+Mesin Ekstruder: Prinsip kerja pemanas + tekanan mekanis screw [Sujana & Wicaksono, 2022].
+
+Penelitian Terkait & Riset Gap (3 menit):
+Peneliti		Tahun	Temuan									Gapaian
+Harahap et al.		2025	Parameter optimal: suhu 160–265°C, kecepatan 20–40 rpm.			Sistem kontrol belum otomatis.
+Hernando et al.		2024	Mesin konvensional perlu berhenti saat ganti botol → kurang efisien.	Belum ada integrasi IoT.
+Wirantara et al.	2025	Suhu ideal 245–265°C; variasi suhu sebabkan cacat filamen.		Kontrol suhu manual.
+
+Kontribusi Penelitian Ini: Sistem kontrol Arduino + PID untuk presisi suhu dan kecepatan, minimalkan downtime.
+
+
+
+Slide 5: Metode Penelitian (1 menit)
+Teknik Pengumpulan Data:
+
+Observasi limbah PET di Babelan.
+Studi pustaka parameter ekstrusi.
+
+
+Model Pengembangan:
+
+Rancang mesin 4 modul: Pemotong → Pemanas → Penarik → Penggulung.
+Integrasi sensor suhu + motor stepper dengan Arduino.
+
+
+
+Pengujian:
+
+Uji kualitas filamen (diameter, kekuatan tarik) pada variasi suhu dan kecepatan.
+
+
+
+Slide Penutup
+Kontribusi Signifikan:
+
+Mesin ekstrusi otomatis berbasis Arduino untuk daur ulang limbah PET → filamen 3D.
+Optimasi parameter produksi (suhu + kecepatan) untuk kualitas filamen konsisten.
+Solusi ekonomi-sirkular: Tekan limbah + sediakan filamen murah.
+

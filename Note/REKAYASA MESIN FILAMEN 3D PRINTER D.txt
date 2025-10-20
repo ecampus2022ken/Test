@@ -1,0 +1,16 @@
+REKAYASA MESIN FILAMEN 3D PRINTER DAUR ULANG BOTOL PLASTIK PET DENGAN SISTEM KONTROL ARDUINO
+
+
+ABSTRAK
+Pada era digital saat ini terdapat produk yang di bungkus menggunakan bahan yang tahan lama yang memungkinkan kualitas produk tersebut tetap terjaga walaupun kena hujan hingga panas matahari, akan tetapi setelah bahan yang tahan hancur seperti halnya plastik yang membutuhkan waktu hampir ratusan tahun untuk kemasan botol plastik. Untuk itu kita perlu mengolah sampah plastik tersebut terutama botol plastik berbahan dasar Polyethlyne Terephthalate (PET). Salah satu bentuk pengolahannya yaitu dengan mengubahnya menjadi filamen untuk material mesin cetak 3D fused deposition modeling. untuk membuat filamen dari botol bekas membutuhkan alat pembuat filamen. Mesin pembuat filamen terdiri dari beberapa bagian, bagian pemotong, bagian pemanas, bagian penarik, dan bagian penggulung.
+
+
+
+PENDAHULUAN
+1.1.	Latar Belakang Masalah
+	Limbah plastik Polyethylene Terephthalate (PET) sangat sulit terurai yang dapat menyebabkan penumpukan limbah plastik yang sangat besar, dan dapat menimbulkan masalah serius pada lingkungan, penelitian ini bertujuan untuk mengembangkan mesin ekstrusi filamen 3D printer guna mengolah limbah botol plastik menjadi material yang dapat digunakan kembali [Harahap et al., 2025]. Di Indonesia, kontribusi sampah plastik mencapai 21,14% dari total sampah di Provinsi Lampung pada tahun 2021 [Harahap et al., 2025],  data tersebut menunjukkan urgensi penanganan serius. Minimnya metode daur ulang PET menjadi barang setengah jadi atau barang jadi bernilai ekonomis memperparah kondisi ini, sementara filamen 3D printing komersial seperti Polylactic Acid (PLA) masih relatif mahal dan sulit diakses di berbagai daerah [Taufik et al., 2023].
+
+	Penelitian ini adalah botol plastik PET bekas kemasan minuman, yang dipilih karena sifat termoplastik dan elastisitasnya. Material ini mudah meleleh pada suhu 225°C [Wirantara et al., 2025] dan dapat dikonversi menjadi filamen 3D printer melalui proses daur ulang mekanis. Potensi pemanfaatannya sangat besar mengingat konsumsi botol PET di Indonesia terus meningkat, namun hanya 23% siswa SMA yang memahami pemanfaatan limbah ini [Anshori and Sohriati, 2024]. Karakteristik mekanik PET yang mirip dengan PLA seperti kekuatan tarik hingga 6.11 MPa [Harahap et al., 2025] menjadikannya kandidat ideal substitusi filamen komersial.
+
+	Terletak pada ketidak konsistenan kualitas filamen daur ulang [Wirantara et al., 2025] mengidentifikasi cacat seperti under-extrusion, layer separation, dan variasi diameter (±0.2 mm) akibat kontrol parameter suhu dan kecepatan yang tidak optimal. Suhu ekstrusi di bawah 245°C menyebabkan penyumbatan nozzle, sementara suhu di atas 265°C menghasilkan filamen terlalu cair [Wirantara et al., 2025]. Selain itu, sistem produksi konvensional memerlukan penghentian mesin saat mengganti botol, mengurangi efisiensi [Hernando et al., 2024].
+

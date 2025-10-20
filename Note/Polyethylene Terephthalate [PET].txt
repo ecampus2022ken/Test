@@ -1,0 +1,42 @@
+Polyethylene Terephthalate [PET]
+
+
+### Pembahasan Mengenai PET (Polyethylene Terephthalate) Berdasarkan Referensi
+
+Polyethylene terephthalate (PET) adalah salah satu plastik yang paling banyak digunakan di dunia, dengan produksi global mencapai 82 juta metrik ton per tahun (Kawai et al., 2022). PET dikenal karena sifatnya yang tahan terhadap biodegradasi, terutama karena adanya asam tereftalat aromatik yang memberikan suhu transisi gelas (\(T_g\)) yang tinggi, yaitu 75–80°C di udara dan 65–70°C di air (Kawai et al., 2022). Hal ini membuat PET sulit terurai secara alami dan memerlukan enzim dengan stabilitas termal dan aktivitas tinggi pada suhu sekitar 70°C untuk mendegradasinya.
+
+#### Mekanisme Degradasi PET oleh Enzim
+Degradasi PET oleh enzim hidrolase seperti Cut190 terjadi melalui dua tahap utama:  
+1. **Endo-type scission**: Pemutusan acak rantai polimer di permukaan PET.  
+2. **Exo-type hydrolysis**: Hidrolisis lebih lanjut dari fragmen yang terdepolimerisasi untuk menghasilkan produk seperti mono/bis(2-hydroxyethyl) terephthalate (MHET/BHET) dan terephthalate (TPA) (Kawai et al., 2022).  
+
+Proses ini disebut sebagai "surface erosion," di mana hanya molekul di permukaan PET yang terfragmentasi, sementara bagian dalam tetap utuh. Hal ini dibuktikan dengan tidak adanya perubahan signifikan dalam ukuran molekul PET yang tersisa setelah degradasi lebih dari 30% (Kawai et al., 2022).
+
+#### Faktor yang Mempengaruhi Degradasi PET
+1. **Luas Permukaan**: Peningkatan luas permukaan PET, seperti melalui penghalusan (micronization), meningkatkan degradasi. Misalnya, serbuk PET amorf terdegradasi lebih dari dua kali lipat dibandingkan film PET dengan berat yang sama (Kawai et al., 2022).  
+2. **Surfaktan**: Surfaktan kationik seperti dodecyltrimethylammonium chloride dapat meningkatkan laju hidrolisis dengan memediasi pengikatan enzim ke permukaan PET (Kawai et al., 2022).  
+3. **pH dan Suhu**: Mempertahankan pH basa (pH 9.0) dan suhu optimal (65–70°C) sangat penting untuk aktivitas enzim Cut190 (Kawai et al., 2022).  
+
+#### Rekayasa Enzim Cut190 untuk Degradasi PET
+Cut190 adalah enzim cutinase yang diisolasi dari bakteri termofilik *Saccharomonospora viridis* AHK190. Enzim ini memiliki stabilitas termal tinggi dan aktivitas hidrolitik terhadap PET. Rekayasa mutasi pada Cut190, seperti varian Cut190**SS/L136F, mampu menghasilkan lebih dari 90 mM produk degradasi dalam 3 hari pada suhu 63°C (Kawai et al., 2022). Selain PET, Cut190 juga dapat menghidrolisis polyethylene furanoate (PEF), yang merupakan alternatif PET yang lebih ramah lingkungan (Kawai et al., 2022).
+
+### Kutipan untuk Bab 2 Landasan Teori
+Berikut adalah bagian yang dapat dikutip langsung dari referensi untuk mendukung penulisan skripsi:
+
+1. **Sifat dan Produksi PET**:  
+   > "Polyethylene terephthalate (PET) is one of the major plastics used worldwide and its global production is amounted to 82 million metric tons per year" (Kawai et al., 2022).  
+
+2. **Mekanisme Degradasi Enzimatik**:  
+   > "The degradation of PET films by the Cut190 variant was shown to proceed via a repeating two-step hydrolysis process; initial endo-type scission of a surface polymer chain, followed by exo-type hydrolysis to produce mono/bis(2-hydroxyethyl) terephthalate and terephthalate from the ends of fragmented polymer molecules" (Kawai et al., 2022).  
+
+3. **Pengaruh Luas Permukaan**:  
+   > "Amorphous PET powders were degraded more than twofold higher than amorphous PET film with the same weight" (Kawai et al., 2022).  
+
+4. **Peran Surfaktan**:  
+   > "The cationic surfactant dodecyltrimethylammonium chloride promoted PET degradation via adsorption on the PET surface and binding to the anionic surface of the Cut190 variant" (Kawai et al., 2022).  
+
+5. **Rekayasa Enzim Cut190**:  
+   > "Using the best performing Cut190 variant (L136F/Q138A/S226P/R228S/D250C-E296C/Q123H/N202H/K305del/L306del/N307del) and amorphous PET powders, more than 90 mM degradation products were obtained in 3 days and approximately 80 mM in 1 day" (Kawai et al., 2022).  
+
+### Penutup
+Referensi ini memberikan landasan teoritis yang kuat untuk memahami degradasi PET secara enzimatik, termasuk mekanisme, faktor pendukung, dan perkembangan terbaru dalam rekayasa enzim. Kutipan-kutipan di atas dapat digunakan untuk memperkuat argumen dalam bab landasan teori skripsi. Pastikan untuk mencantumkan referensi secara lengkap sesuai gaya sitasi yang digunakan (APA, IEEE, dll.).

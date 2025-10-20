@@ -1,0 +1,24 @@
+Kesimpulan Masalah Banjir dari Jurnal Kolam Retensi Sungai Cijambe
+Berdasarkan analisis dalam jurnal tersebut, banjir di Sungai Cijambe, Kabupaten Bekasi disebabkan oleh:
+
+Peningkatan Debit Puncak akibat curah hujan tinggi dan alih fungsi lahan (pengurangan daerah resapan).
+
+Kapasitas Sungai Tidak Memadai untuk menampung limpasan air saat musim hujan.
+
+Minimnya Infrastruktur Pengendali, seperti kolam retensi, yang berfungsi menahan air sementara dan mengurangi debit banjir.
+Solusi Utama: Pembangunan kolam retensi untuk menurunkan debit banjir 19–25% melalui simulasi model hidrologi, dengan mengoptimalkan dimensi kolam berdasarkan analisis hidrograf.
+
+
+
+Judul untuk Alat Pembuatan Filamen Berbasis Arduino Uno R4
+Berdasarkan referensi rancang bangun (JTRAIN 2017, Adafruit, dan DIY Life), berikut judul yang cocok:
+"Sistem Daur Ulang Botol PET Otomatis Berbasis Arduino Uno R4 untuk Produksi Filamen 3D Printing"
+
+Penjelasan Judul:
+Fokus Utama: Daur ulang limbah botol PET → filamen 3D printing.
+
+Teknologi Kunci: Arduino Uno R4 untuk kontrol presisi suhu ekstrusi dan kecepatan motor.
+
+Keunikan Alat: Integrasi otomatisasi daur ulang (shredding, melting, ekstrusi) berbasis mikrokontroler, sesuai demonstrasi di video penerapan.
+
+Judul ini merepresentasikan aspek ekonomi sirkular (pengolahan limbah) dan inovasi teknis (kontrol Arduino), selaras dengan temuan di sumber referensi.

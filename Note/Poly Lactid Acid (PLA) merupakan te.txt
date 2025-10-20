@@ -1,0 +1,8 @@
+Poly Lactid Acid (PLA) merupakan termoplastik biodegradable yang terbuat dari sumber daya terbarukan. PLA bisa menjadi alternatif pengganti plastik berbasis minyak bumi untuk mengurangi tingkat pencemaran. Untuk memenuhi kebutuhan PLA di Indonesia karena masih bergantung terhadap impor PLA serta terus meningkatnya kebutuhan PLA dunia, maka dirancang pabrik PLA berkapasitas 10.000 ton/tahun dengan memanfaatkan limbah bonggol jagung sebagai bahan baku. Pabrik direncanakan berdiri di kota Tuban, Jawa Timur. 
+
+
+
+	Mesin Ekstrusi Filamen 3D Printer Sederhana Sebagai Alternatif Daur Ulang Limbah Botol Plastik dengan Kendali PID
+
+
+PERANCANGAN MESIN EKSTRUDER BOTOL PLASTIK MENJADI FILAMEN PRINTER 3 DIMENSI DENGAN SISTEM KONTROL ARDUINO

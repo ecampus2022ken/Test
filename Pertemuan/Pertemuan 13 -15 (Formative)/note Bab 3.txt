@@ -1,0 +1,117 @@
+Tentu, saya akan membantu Anda membuat presentasi PowerPoint untuk **BAB III: METODOLOGI PENELITIAN** dari skripsi Anda.
+
+Berikut adalah rangkuman konten untuk setiap slide yang dapat Anda gunakan:
+
+---
+
+### **Slide 1: Judul Presentasi**
+**PERANCANGAN MESIN EKSTRUDER BOTOL PLASTIK MENJADI FILAMEN 3D DENGAN SISTEM KONTROL ARDUINO**  
+**BAB III: METODOLOGI PENELITIAN**  
+Oleh: Kevin Mubarak  
+NIM: 2022310003  
+Program Studi Teknik Informatika – Universitas Bina Insani
+
+---
+
+### **Slide 2: Outline Presentasi**
+- Teknik Pengumpulan Data
+- Metode yang Digunakan
+- Kerangka Pemikiran
+- Model Pengembangan (RAD)
+
+---
+
+### **Slide 3: Teknik Pengumpulan Data**
+- **Observasi**  
+  - Lokasi: Babelan, Bekasi  
+  - Periode: November–Desember 2025  
+  - Fokus: Karakteristik botol PET, proses ekstrusi, kualitas filamen
+
+- **Wawancara**  
+  - Narasumber: Pakar daur ulang & 3D printing  
+  - Durasi: 60–120 menit  
+  - Fokus: Tantangan teknis, optimasi parameter, desain sistem
+
+- **Studi Pustaka**  
+  - Sumber: Google Scholar, Scopus, IEEE Xplore  
+  - Kata kunci: PET recycling, filament extrusion, Arduino control  
+  - Kriteria: Publikasi 2015–2025, jurnal terakreditasi
+
+---
+
+### **Slide 4: Metode yang Digunakan**
+- **Desain-Based Research**  
+  - Merancang, membangun, dan menguji mesin ekstruder berbasis Arduino  
+  - Mengacu pada penelitian Sujana et al. (2022) dan Nugraha & Kosasih (2021)
+
+---
+
+### **Slide 5: Perancangan Sistem**
+- **Desain Mekanik**  
+  - Screw extruder, barrel, nozzle, sistem transmisi  
+- **Sistem Kontrol**  
+  - Arduino Uno + thermistor NTC + heater cartridge  
+  - Motor stepper NEMA 17 untuk penarik filamen  
+  - Kontrol PID untuk stabilisasi suhu
+
+---
+
+### **Slide 6: Implementasi Prototipe**
+- **Komponen Utama**  
+  - Screw extruder Ø20 mm  
+  - Heater cartridge 250W  
+  - Thermistor NTC 100kΩ  
+  - Motor stepper NEMA 17  
+  - Arduino Uno dengan PID
+
+---
+
+### **Slide 7: Pengujian Eksperimental**
+- **Variabel Pengujian**  
+  - Suhu: 210°C, 220°C, 230°C, 240°C  
+  - Kecepatan: 20, 30, 40 rpm  
+- **Parameter Kualitas**  
+  - Diameter filamen (jangka sorong)  
+  - Kekuatan tarik (universal testing machine)  
+  - Visual inspection (konsistensi & cacat)
+
+---
+
+### **Slide 8: Analisis Data**
+- **Kuantitatif**  
+  - Rata-rata diameter, deviasi standar, uji kekuatan tarik  
+- **Kualitatif**  
+  - Observasi visual terhadap hasil filamen
+
+---
+
+### **Slide 9: Kerangka Pemikiran**
+- **Alur Proses**  
+  1. Preparasi material (pembersihan, pemotongan, pengeringan)  
+  2. Ekstrusi (pemanasan, pelelehan, kontrol suhu & kecepatan)  
+  3. Pendinginan & penggulungan  
+  4. Pengujian kualitas (diameter, kekuatan mekanik, evaluasi)
+
+![Gambar Kerangka Pemikiran](media/image3.png)
+
+---
+
+### **Slide 10: Model Pengembangan (RAD)**
+- **Requirement Planning**  
+  - Identifikasi masalah & kebutuhan sistem  
+- **User Design**  
+  - Rancangan mekanik & elektronik + umpan balik pengguna  
+- **Construction**  
+  - Perakitan komponen & pengembangan perangkat lunak  
+- **Cutover**  
+  - Implementasi, uji coba, evaluasi terhadap standar filamen
+
+---
+
+### **Slide 11: Terima Kasih**
+**Terima Kasih**  
+Pertanyaan?
+
+---
+
+Jika Anda memerlukan file PowerPoint (.pptx) yang sudah dirancang, saya dapat membuatkannya untuk Anda. Beri tahu saya jika Anda ingin saya lanjutkan!

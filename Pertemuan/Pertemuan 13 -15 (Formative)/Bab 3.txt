@@ -1,0 +1,51 @@
+3.2 Metode yang Digunakan
+
+Metode pengembangan sistem yang digunakan dalam penelitian ini adalah Rapid Application Development (RAD). Menurut Alan Dennis (2015), RAD merupakan suatu pendekatan pengembangan sistem yang menekankan pada kecepatan dan keterlibatan pengguna melalui proses iteratif, sehingga sistem dapat dikembangkan lebih cepat dengan kualitas yang tetap terjaga. RAD sangat sesuai untuk penelitian ini karena proses perancangan sistem kontrol mesin ekstruder membutuhkan prototyping yang cepat, fleksibel, serta dapat dilakukan penyesuaian secara langsung berdasarkan hasil pengujian.
+
+Adapun tahapan dalam metode RAD yang diterapkan dalam penelitian ini adalah sebagai berikut:
+
+Requirements Planning (Perencanaan Kebutuhan)
+Pada tahap ini dilakukan identifikasi kebutuhan sistem baik dari sisi perangkat keras maupun perangkat lunak. Kebutuhan utama dalam penelitian ini meliputi:
+
+Komponen mesin ekstruder (pemotong, pemanas, penarik, dan penggulung).
+
+Sistem kontrol berbasis Arduino untuk mengatur suhu pemanas dan kecepatan motor penggulung.
+
+Sensor suhu (thermocouple/thermistor) untuk mendeteksi panas.
+
+Antarmuka perangkat lunak sederhana untuk memantau parameter ekstrusi.
+
+User Design (Desain Bersama Pengguna)
+Tahap ini melibatkan perancangan awal sistem berdasarkan kebutuhan yang telah ditentukan. Desain dilakukan dalam bentuk:
+
+Diagram alur kerja mesin ekstruder.
+
+Skema rangkaian Arduino beserta sensor dan aktuator.
+
+Rancangan antarmuka monitoring sederhana (jika digunakan).
+
+Desain fisik mesin termasuk penempatan komponen kontrol.
+
+Construction (Pembangunan Sistem)
+Tahap ini merupakan implementasi dari desain yang telah dibuat. Aktivitas utama pada tahap ini antara lain:
+
+Perakitan komponen mesin ekstruder (pemotong, pemanas, penarik, penggulung).
+
+Pemrograman Arduino untuk mengontrol suhu dan kecepatan motor.
+
+Integrasi sensor suhu dan motor DC/servo dengan Arduino.
+
+Pengujian awal prototipe untuk memastikan fungsi sesuai kebutuhan.
+
+Cutover (Implementasi dan Pengujian)
+Pada tahap ini sistem diuji secara menyeluruh dalam kondisi nyata. Aktivitas yang dilakukan meliputi:
+
+Uji coba ekstrusi botol plastik PET menjadi filamen.
+
+Pengukuran kualitas filamen (diameter, kelenturan, konsistensi).
+
+Evaluasi hasil dan perbaikan bila ditemukan ketidaksesuaian.
+
+Dokumentasi hasil pengujian untuk mendukung analisis penelitian.
+
+Dengan penerapan metode RAD, sistem kontrol mesin ekstruder dapat dikembangkan secara bertahap melalui prototyping, sehingga setiap iterasi menghasilkan perbaikan dan penyempurnaan yang lebih baik. Pendekatan ini memungkinkan proses penelitian berlangsung lebih efisien, cepat, serta adaptif terhadap perubahan kebutuhan yang muncul selama pengembangan.

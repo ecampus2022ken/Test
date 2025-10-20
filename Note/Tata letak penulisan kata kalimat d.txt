@@ -1,0 +1,11 @@
+Tata letak penulisan kata kalimat dan logo pada cover Skripsi Tugas Akhir diletakkan
+di tengah dengan ketentuan sebagai berikut:
+1. Judul Skripsi Tugas Akhir diketik dengan huruf kapital dengan ukuran font size 14, berjarak 1.5 spasi dengan bentuk judul piramida terbalik dicetak tebal (Bold).
+2. Logo Universitas Bina Insani berwarna dibuat dengan ukuran tinggi 4,5 cm dan lebar 9,44 cm.
+3. Penulisan kata "SKRIPSI/TUGAS AKHIR" ditulis dengan ukuran font size 14 cetak tebal (Bold). Berjarak 1,5 spasi dengan poin 4.
+4. Penulisan kalimat "Diajukan dst" ditulis dengan ukuran font size 12.
+5. Nama penulis dan NPM ditulis dengan ukuran font size 14 dengan jarak 1,5 spasi.
+6. Nama Program Studi, Nama Fakultas, Nama Institusi, Kota, dan Tahun pembuatan ditulis dengan ukuran font size 12 dengan jarak 1,5 spasi cetak tebal (Bold).
+
+
+Diajukan untuk memenuhi salah satu syarat kelulusan Program Studi (S1)

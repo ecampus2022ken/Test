@@ -1,0 +1,7 @@
+Bab 2
+
+Arduino
+ Arduino merupakan sebuah mikrokontroler Single-board yang bersifat Open-source digunakan sebagai media untuk pemrograman pada board yang ingin diprogram. Arduino IDE ini sebuah software yang berguna untuk membuat, mengedit, meng-upload program ke board yang ditentukan, dan memprogram dengan bahasa program tertentu. Arduino IDE dibuat dari bahasa JAVA, yang menggunakan C/C++(wiring) sebagai Library yang membuat Operasi input/output menjadi lebih mudah.
+
+
+1.1.	
