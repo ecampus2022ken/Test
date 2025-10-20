@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Live Chat Custom</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f0f2f5;
+    }
+    .navbar {
+      display: flex;
+      background: #222;
+      padding: 10px;
+    }
+    .navbar button {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      background: #333;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .navbar button.active {
+      background: #007BFF;
+    }
+    .content {
+      padding: 15px;
+    }
+    .hidden {
+      display: none;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      border-radius: 8px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input[type="color"], input[type="text"] {
+      padding: 5px;
+      width: 200px;
+    }
+    .preview-box {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    .asset-preview img {
+      max-width: 100px;
+      margin-top: 10px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <button id="previewBtn" class="active">Preview</button>
+    <button id="editBtn">Edit Style</button>
+  </div>
+
+  <div class="content">
+    <!-- Preview -->
+    <div id="previewTab">
+      <iframe id="liveChatFrame"
+        src="https://www.youtube.com/live_chat?is_popout=1&v=HXGRKoH9VU0">
+      </iframe>
+    </div>
+
+    <!-- Edit Style -->
+    <div id="editTab" class="hidden">
+      <div class="form-group">
+        <label for="fontColor">Warna Font:</label>
+        <input type="color" id="fontColor" value="#000000">
+      </div>
+
+      <div class="form-group">
+        <label for="bgColor">Warna Background:</label>
+        <input type="color" id="bgColor" value="#ffffff">
+      </div>
+
+      <div class="form-group">
+        <label for="assetUrl">Tambahkan Gambar (URL):</label>
+        <input type="text" id="assetUrl" placeholder="https://example.com/img.png">
+        <button onclick="addAsset()">Tambahkan</button>
+      </div>
+
+      <div class="preview-box" id="stylePreview">
+        Preview Style <br>
+        <span>Contoh Teks</span>
+        <div class="asset-preview" id="assetPreview"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const previewBtn = document.getElementById('previewBtn');
+    const editBtn = document.getElementById('editBtn');
+    const previewTab = document.getElementById('previewTab');
+    const editTab = document.getElementById('editTab');
+
+    previewBtn.addEventListener('click', () => {
+      previewBtn.classList.add('active');
+      editBtn.classList.remove('active');
+      previewTab.classList.remove('hidden');
+      editTab.classList.add('hidden');
+    });
+
+    editBtn.addEventListener('click', () => {
+      editBtn.classList.add('active');
+      previewBtn.classList.remove('active');
+      editTab.classList.remove('hidden');
+      previewTab.classList.add('hidden');
+    });
+
+    const fontColor = document.getElementById('fontColor');
+    const bgColor = document.getElementById('bgColor');
+    const stylePreview = document.getElementById('stylePreview');
+
+    fontColor.addEventListener('input', updatePreview);
+    bgColor.addEventListener('input', updatePreview);
+
+    function updatePreview() {
+      stylePreview.style.color = fontColor.value;
+      stylePreview.style.background = bgColor.value;
+    }
+
+    function addAsset() {
+      const url = document.getElementById('assetUrl').value;
+      if (url) {
+        const img = document.createElement('img');
+        img.src = url;
+        document.getElementById('assetPreview').appendChild(img);
+        document.getElementById('assetUrl').value = "";
+      }
+    }
+  </script>
+</body>
+</html>
